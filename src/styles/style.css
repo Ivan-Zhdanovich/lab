@@ -1,0 +1,27 @@
+.button {
+    width: 182px;
+    height: 60px;
+    border: 1px solid white; 
+    border-radius: 30px;
+    
+}
+.button:hover {
+    background-color: rgba(245, 22, 126, 1);
+     color: white;
+}
+.box-create__events-button{
+    width: 302px;
+    height: 60px;
+    left: 696px;
+    background-color: rgba(245, 22, 126, 1);
+    border: 1px solid white; 
+    border-radius: 50px; 
+}
+.blog__topic-button, .upcoming-events-button{
+    width: 182px;
+    height: 60px;
+    border: 1px solid rgba(61, 55, 241, 1); 
+    color: rgba(61, 55, 241, 1);
+
+   border-radius: 30px;   
+}

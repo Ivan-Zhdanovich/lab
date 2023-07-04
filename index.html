@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/header.css"/>
+    <link rel="stylesheet" href="./src/styles/resset.css"/>
+    <link rel="stylesheet" href="./src/styles/banner.css"/>
+    <link rel="stylesheet" href="./src/styles/blog.css"/>
+    <link rel="stylesheet" href="./src/styles/event.css"/>
+    <link rel="stylesheet" href="./src/styles/section-headers.css"/>
+    <link rel="stylesheet" href="./src/styles/footer.css"/>
+    <link rel="stylesheet" href="./src/styles/container.css"/>
+    <link rel="stylesheet" href="./src/styles/form-events.css"/>
+    <link rel="stylesheet" href="./src/styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Nova+Mono&display=swap" rel="stylesheet">
+    <title>Lab1</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header-logo-link" href="#banner-section">
+            <img
+              src="./src/icons/ticket-2 1.png"
+              alt="Logo"
+              class="header-logo"
+            />
+          </a> 
+          <h2 class="logo-link-tittle">Eventick</h2>
+          <nav class="header-navigation">
+            <ul class="header-navigation-list">
+              <li class="header-navigation-list__item">
+                <a href="#eventick-section" class="nav-link">Speakers</a>
+              </li>
+              <li class="header-navigation-list__item">
+                <a href="#schedule-section" class="nav-link">Schedule</a>
+              </li>
+              <li class="header-navigation-list__item">
+                <a href="#ticket-section" class="nav-link">Ticket</a>
+              </li>
+              <li class="header-navigation-list__item">
+                <a href="#contact-section" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>  
+          <button class="button transparent-button" type="button">
+            Login
+          </button>
+         </header>
+    <main id="main" class="main">
+        <section id="banner-section" class="banner-section">
+            <div class="container">
+              <img
+              src="./src/icons/Group 30.png"
+              alt="Banner logo"
+              class="banner-section-logo"
+                />
+                <div class="banner-section-text-content">
+                    <div class="section-header">
+                    <h1 class="section-header__title section-header--white-color">
+                        SBS MTV The Kpop Show Ticket  Package
+                    </h1>
+                    <p class="section-header__subtitle section-header--white-color">
+                        Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop recording.
+                    </p>
+                </div>
+                <button class="button transparent-button" type="button">
+                    Get Ticket
+                  </button>
+                <button class="button transparent-button" type="button">
+                    Learn More
+                </button>
+            </div>
+        </section>
+        <section class="form">
+          <div class="container form-events">
+            <form
+            autocomplete="on"
+            name="form-events"
+            action=""
+            class="section-form"
+          >
+          <div class="form-inputs">
+            <label class="form-label" for="form-input-name">
+                <input
+                  id="form-input-search-event"
+                  class="form-input"
+                  autofocus
+                  autocomplete="search-event"
+                  type="text"
+                  placeholder="Search Event"
+                  required
+                />
+                <span class="label-content">Search Event</span>
+              </label>
+              <label class="form-label" for="form-input-place">
+                <input
+                  id="form-input-place"
+                  class="form-input"
+                  autocomplete="place"
+                  type="text"
+                  placeholder="Place"
+                  required
+                />
+                <span class="label-content">Place</span>
+              </label>
+              <label class="form-label" for="form-input-time">
+                <input
+                  id="form-input-time"
+                  class="form-input"
+                  autocomplete="time"
+                  type="datetime"
+                  placeholder="Time"
+                  required
+                />
+                <span class="label-content">Time</span>
+              </label>
+          </div>
+          </div>
+        </section>
+        <section class="upcoming-events">
+        <div class="container-upcoming-events">
+            <header class="upcoming-events__header">Upcoming Events</header>
+            <div class="upcoming-events__content">
+                <img src="./src/icons/Group 12.jpg" alt="logo1">
+                <img src="./src/icons/Group 13.jpg" alt="logo2">
+                <img src="./src/icons/Group 14.jpg" alt="logo3">
+                <img src="./src/icons/Group 15.jpg" alt="logo4">
+                <img src="./src/icons/Group 16.jpg" alt="logo5">
+                <img src="./src/icons/Group 17.jpg" alt="logo6">
+             </div>
+            <button class="upcoming-events-button" type="button">Load More</button> 
+        </div>
+    </section>
+    <section class="create-events">
+        <div class="create-events-content">
+        <img src="./src/icons/image 3.jpg" alt="im1">
+        <div class="create-events-content__discription">
+          <h2 class="section-header__create-events-title">Make your own Event</h2>
+          <p class="section-header__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <button class="box-create__events-button" type="button">Create Events</button>
+       </div>             
+        </div>
+    </section>
+    <section section="brands">
+        <div class="container">  
+          <div class="section-header">
+            <h2 class="section-header__title">Join these brands</h2> 
+            <p class="section-header__description">We've had the pleasure of working with industry-defining brands. These are just some of them.</p>
+          </div>      
+                    <div class="brands-content">
+                        <img src="./src/icons/image 4.png" alt="im1">     
+                        <img src="./src/icons/image 5.png" alt="im1">
+                        <img src="./src/icons/image 14.png" alt="im1">
+                        <img src="./src/icons/image 15.png" alt="im1">
+                        <img src="./src/icons/image 16.png" alt="im1">     
+                        <img src="./src/icons/image 17.png" alt="im1">
+                        <img src="./src/icons/image 18.png" alt="im1">
+                        <img src="./src/icons/image 19.png" alt="im1">
+                        <img src="./src/icons/image 20.png" alt="im1">
+                    </div>           
+        </div>
+    </section>
+           <section class="blog">
+            <div class="container">
+            <div class="section-header">
+              <h2 class="section-header__title">Blog</h2> 
+              <p class="section-header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="blog__content-box">
+            <div class="blog__topic">
+                <img class="pic2" src="./src/icons/Rectangle 14 (2).jpg" alt="im2">
+                <h3 class="blog__topic-title">6 Strategies to Find Your Conference Keynote and Other Speakers</h3>
+                        <p class="blog__topic-description">
+                            Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.
+                        </p>
+                </div> 
+                <div class="blog__topic">
+                    <img class="pic3" src="./src/icons/Rectangle 14.jpg" alt="im3">
+                    <h3 class="blog__topic-title">How Successfully Used Paid Marketing to Drive Incremental Ticket Sales</h3>
+                            <p class="blog__topic-description">
+                                Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.
+                            </p>
+                            <button class="blog__topic-button" type="button">Load More</button> 
+                </div> 
+                <div class="blog__topic">
+                    <img class="blog__topic-image" src="./src/icons/Rectangle 14 (1).jpg" alt="im1">
+                    <h3 class="blog__topic-title">Introducing Workspaces: Work smarter, not harder with new navigation</h3>
+                            <p class="blog__topic-description">
+                                Sekarang, kamu bisa produksi tiket fisik untuk eventmu bersama Bostiketbos. Hanya perlu mengikuti beberapa langkah mudah.
+                            </p>
+                </div>   
+            </div>
+            </div>
+        </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+              <div class="footer__content-box">
+                <address class="footer__address">
+                    <img class="footer__image" src="./src/icons/ticket-2 1 (1).svg" alt="im1">
+                    <h3 class="footer__title">Eventick</h3>
+                    <p class="footer__description">
+                        Eventick is a global self-service ticketing platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.
+                    </p>
+                    <div class="footer-icons-box">
+                      <div class="eventick">
+                          <img class="eventick__socnet-icon" src="./src/icons/facebook.svg" alt="facebook">
+                          <img class="eventick__socnet-icon" src="./src/icons/Group.svg" alt="twiter">
+                          <img class="eventick__socnet-icon" src="./src/icons/Group (1).svg" alt="il">
+                      </div>
+                   </div>
+                 </address>
+                
+                  <div class="plan-events">
+                    <h3 class="plan-events-title">Plan Events</h3>
+                    <p class="plan-events-description">
+                        Create and Set Up
+                        Sell Tickets
+                        Online RSVP 
+                        Online Events
+                    </p>
+                </div>
+                <div class="eventick">
+                  <h3 class="eventick-title">Eventick</h3>
+                  <p class="eventick-description">
+                      About Us
+                      Press
+                      Contact Us
+                      Help Center
+                      How it Works
+                      Privacy
+                      Terms
+                  </p>
+              </div>
+              <div class="loop">
+                  <h3 class="loop-title">Stay in the Loop</h3>
+                  <p class="loop-description">
+                     Join our mailing list to stay in the loop with our newest for Event and concert
+                  </p>
+              </div>
+            </div>
+          </div>
+        </footer>  
+</body>
+</html>

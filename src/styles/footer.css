@@ -1,0 +1,20 @@
+.footer {
+    background:rgba(10, 7, 95, 1);
+    color: #ffffff;
+}
+.footer__content-box {
+    display: flex;
+    flex-direction: row; 
+}
+.eventick-description{
+    width: 87px;
+    height: 196px;
+}
+.plan-events-description{
+    width: 121px;
+    height: 112px;
+}
+.footer__description{
+    width: 333px;
+    height: 88px; 
+}
